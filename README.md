@@ -25,4 +25,8 @@
 </p>
 <ul>
   <li>#import "JXHOptionsSandBox.h"</li>
+  <li>[JXHOptionsSandBox setDamping:0.55f];//set animation damping</li>
+  <li>[JXHOptionsSandBox setSpringVelocity:1.0f];//set spring velocity</li>
+  <li>[JXHOptionsSandBox setAnimationDuration:1.2f]//set animation duration</li>
+  <li>[JXHOptionsSandBox setNums:5]//set the numbers of cubic on the transition</li>
 </ul>
