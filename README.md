@@ -43,3 +43,13 @@
   <li>[JXHOptionsSandBox setAnimationDuration:1.2f]//set animation duration</li>
   <li>[JXHOptionsSandBox setNums:5]//set the numbers of cubic on the transition</li>
 </ul>
+<p>That's all, Thanks for watching. If you got any questions or new ideas about this project, please don't hesitate to let me know.
+</p>
+<ul>
+  <li>
+  <p>my email address: hejingxianapp@yahoo.com
+  </li>
+  <li>
+    <p>My blog<a href="http://appdevtommyho.tumblr.com"></a></p>
+  </li>
+</ul>
