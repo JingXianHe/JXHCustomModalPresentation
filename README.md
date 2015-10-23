@@ -14,9 +14,10 @@
     
     <p>2.    UIViewController *second = [[UIViewController alloc] init];</p>
     <p>      second.modalPresentationStyle = UIModalPresentationCustom; </p>
-          second.transitioningDelegate = [JXHCustomModalPresent sharedtransition];
-          [self presentViewController:second animated:YES completion:nil];
+    <p>      second.transitioningDelegate = [JXHCustomModalPresent sharedtransition];</p>
+    <p>      [self presentViewController:second animated:YES completion:nil];</p>
 </P>
 <p>
     You will get amazing custom transition!
 </p>
+<
