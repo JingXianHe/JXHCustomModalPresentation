@@ -97,3 +97,20 @@ secondVC.view.layer.contents = UIImage(named: "buick.jpg")?.CGImage as? AnyObjec
 self.presentViewController(secondVC, animated: true, completion: nil)
 </li>
 </ul>
+<p>For setting JXHCustomModalPresentation</p>
+<ul>
+  <li>JXHOptionsSandBox.setDamping(0.55f);//set animation damping</li>
+  <li>JXHOptionsSandBox.setSpringVelocity(1.0f)//set spring velocity</li>
+  <li>JXHOptionsSandBox.setAnimationDuration(1.2f)//set animation duration</li>
+  <li>JXHOptionsSandBox.setNums(5) //set the numbers of cubic on the transition</li>
+</ul>
+<p>That's all, Thanks for watching. If you got any questions or new ideas about this project, please don't hesitate to let me know.
+</p>
+<ul>
+  <li>
+  <p>my email address: hejingxianapp@yahoo.com
+  </li>
+  <li>
+    <p><a href="http://appdevtommyho.tumblr.com">My blog</a></p>
+  </li>
+</ul>
