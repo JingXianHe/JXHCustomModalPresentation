@@ -10,12 +10,25 @@
   JXHCustomModalPresentation is very easy to use. For those geeks who use objective-c, you just download <b>JXHCustomModalPresent.a</b>, <b>JXHCustomModalPresent.h</b>, <b>JXHOptionsSandBox.h</b> and <b>Singleton.h</b>. Then you drag them into your project. Done! At the following steps I am going to show you how to use the JXHCustomModalPresentation.
 </p>
 <p>
-    <p>1.   #import "JXHCustomModalPresent.h"</p>
-    <p>2.   For example, if you wanna present a UIViewController modally, you can follow the below steps.</p>
-    <p>UIViewController *second = [[UIViewController alloc] init];</p>
-    <p>second.modalPresentationStyle = UIModalPresentationCustom; </p>
-    <p>second.transitioningDelegate = [JXHCustomModalPresent sharedtransition];</p>
-    <p>[self presentViewController:second animated:YES completion:nil];</p>
+    <ul>
+      <li>#import "JXHCustomModalPresent.h"</li>
+      <li>For example, assume you wanna present a UIViewController modally.
+      <ul>
+      <li>
+        UIViewController *second = [[UIViewController alloc] init]
+      </li>
+      <li>
+        second.modalPresentationStyle = UIModalPresentationCustom
+      </li>
+      <li>
+        second.transitioningDelegate = [JXHCustomModalPresent sharedtransition]
+      </li>
+      <li>
+        [self presentViewController:second animated:YES completion:nil]
+      </li>
+      </ul>
+      </li>
+    </ul>
 </P>
 <p>
     You will get amazing custom transition!
