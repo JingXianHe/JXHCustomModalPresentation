@@ -7,7 +7,7 @@
 </p>
 <img src="img/customTransition.gif" alt="cubic transition" />
 <p>
-  JXHCustomModalPresentation is very easy to use. For those geeks who use objective-c, you just download <b>JXHCustomModalPresent.a</b>, JXHCustomModalPresent.h, JXHOptionsSandBox.h and Singleton.h. Then you drag them into your project. Done! At the following steps I am going to show you how to use the JXHCustomModalPresentation.
+  JXHCustomModalPresentation is very easy to use. For those geeks who use objective-c, you just download <b>JXHCustomModalPresent.a</b>, <b>JXHCustomModalPresent.h</b>, <b>JXHOptionsSandBox.h</b> and <b>Singleton.h</b>. Then you drag them into your project. Done! At the following steps I am going to show you how to use the JXHCustomModalPresentation.
 </p>
 <p>
     <p>1.   #import "JXHCustomModalPresent.h"</p>
@@ -21,5 +21,8 @@
     You will get amazing custom transition!
 </p>
 <p>
-  If you wanna 
+  If you wanna make some changes to the transition animation, please keep on watching.
 </p>
+<ul>
+  <li>#import "JXHOptionsSandBox.h"</li>
+</ul>
