@@ -61,7 +61,7 @@
     Drog <b>JXHCustomModalPresent.a</b>, <b>JXHCustomModalPresent.h</b>, <b>JXHOptionsSandBox.h</b> and <b>Singleton.h</b> into your projects.
   </li>
   <li>
-    Add new file to the project, please choose Cocoa Touch Class
+    Add new file to the project. Please choose Cocoa Touch Class, and then add a Objective-c class into the project. When Xcode ask "<b>Would you like to config an Objective-C bridging header?</b>", click "Create Bridging Header".
   </li>
   <li>
   
