@@ -55,3 +55,15 @@
 </ul>
 <hr>
 <h2>Swift</h2>
+<p>People who use swift please follow these steps</p>
+<ul>
+  <li>
+    Drog <b>JXHCustomModalPresent.a</b>, <b>JXHCustomModalPresent.h</b>, <b>JXHOptionsSandBox.h</b> and <b>Singleton.h</b> into your projects.
+  </li>
+  <li>
+    Add new file to the project, please choose Cocoa Touch Class
+  </li>
+  <li>
+  
+  </li>
+</ul>
