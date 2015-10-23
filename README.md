@@ -50,6 +50,7 @@
   <p>my email address: hejingxianapp@yahoo.com
   </li>
   <li>
-    <p>My blog<a href="http://appdevtommyho.tumblr.com"></a></p>
+    <p><a href="http://appdevtommyho.tumblr.com">My blog</a></p>
   </li>
 </ul>
+<hr>
