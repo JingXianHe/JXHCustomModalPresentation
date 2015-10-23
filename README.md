@@ -78,3 +78,22 @@
   </ul>
   </li>
 </ul>
+<h3>Done !</h3>
+<p>How to use it?</p>
+<ul>
+<li>
+let secondVC:UIViewController = UIViewController()//you can initialize your own UIViewController, here is just an example!
+</li>
+<li>
+secondVC.modalPresentationStyle = UIModalPresentationStyle.Custom
+</li>
+<li>
+secondVC.transitioningDelegate = JXHCustomModalPresent.sharedtransition()
+</li>
+<li>
+secondVC.view.layer.contents = UIImage(named: "buick.jpg")?.CGImage as? AnyObject
+</li>
+<li>
+self.presentViewController(secondVC, animated: true, completion: nil)
+</li>
+</ul>
