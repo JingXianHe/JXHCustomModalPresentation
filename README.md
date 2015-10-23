@@ -6,6 +6,7 @@
   JXHCustomModalPresentation is an awesome modal transition. It changes the default modal transition. You can see it from the image below. 
 </p>
 <img src="img/customTransition.gif" alt="cubic transition" />
+<h3>Objective-C</h3>
 <p>
   JXHCustomModalPresentation is very easy to use. For those geeks who use objective-c, you just download <b>JXHCustomModalPresent.a</b>, <b>JXHCustomModalPresent.h</b>, <b>JXHOptionsSandBox.h</b> and <b>Singleton.h</b>. Then you drag them into your project. Done! At the following steps I am going to show you how to use the JXHCustomModalPresentation.
 </p>
