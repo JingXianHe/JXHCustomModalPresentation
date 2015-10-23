@@ -11,11 +11,11 @@
 </p>
 <p>
     <p>1.    #import "JXHCustomModalPresent.h"</p>
-    
-    <p>2.    UIViewController *second = [[UIViewController alloc] init];</p>
-    <p>      second.modalPresentationStyle = UIModalPresentationCustom; </p>
-    <p>      second.transitioningDelegate = [JXHCustomModalPresent sharedtransition];</p>
-    <p>      [self presentViewController:second animated:YES completion:nil];</p>
+    <p>For example, if you wanna present a UIViewController modally, you can follow the below steps.</p>
+    <p>UIViewController *second = [[UIViewController alloc] init];</p>
+    <p>second.modalPresentationStyle = UIModalPresentationCustom; </p>
+    <p>second.transitioningDelegate = [JXHCustomModalPresent sharedtransition];</p>
+    <p>[self presentViewController:second animated:YES completion:nil];</p>
 </P>
 <p>
     You will get amazing custom transition!
