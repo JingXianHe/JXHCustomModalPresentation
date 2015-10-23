@@ -64,6 +64,17 @@
     Add new file to the project. Please choose Cocoa Touch Class, and then add a Objective-c class into the project. When Xcode ask "<b>Would you like to config an Objective-C bridging header?</b>", click "Create Bridging Header".
   </li>
   <li>
-  In your <b>*-Bridging-Header.h</b>, 
+  In your <b>*-Bridging-Header.h</b>, write down 
+  <ul>
+    <li>
+    #import "JXHCustomModalPresent.h"
+    </li>
+    <li>
+    #import "JXHOptionsSandBox.h"
+    </li>
+    <li>
+    #import "Singleton.h"
+    </li>
+  </ul>
   </li>
 </ul>
