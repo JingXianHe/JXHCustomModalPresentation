@@ -7,5 +7,16 @@
 </p>
 <img src="img/customTransition.gif" alt="cubic transition" />
 <p>
-  JXHCustomModalPresentation is very easy to use. For those geeks who use objective-c, you just download 
+  JXHCustomModalPresentation is very easy to use. For those geeks who use objective-c, you just download JXHCustomModalPresent.a, JXHCustomModalPresent.h, JXHOptionsSandBox.h and Singleton.h. Then you drag them into your project. Done! At the following steps I am going to show you how to use the JXHCustomModalPresentation.
+</p>
+<p>
+    1.    #import "JXHCustomModalPresent.h"
+    
+    2.    UIViewController *second = [[UIViewController alloc] init];
+          second.modalPresentationStyle = UIModalPresentationCustom;
+          second.transitioningDelegate = [JXHCustomModalPresent sharedtransition];
+          [self presentViewController:second animated:YES completion:nil];
+</P>
+<p>
+    You will get amazing custom transition!
 </p>
